@@ -1,4 +1,4 @@
-# whatsapp_opener
+# whatsapp_redir
 
 A new Flutter project.
 
