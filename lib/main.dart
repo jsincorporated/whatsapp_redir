@@ -5,6 +5,7 @@ import 'package:url_launcher/url_launcher_string.dart';
 
 void main() {
   runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
     home: Home(),
   ));
 }
