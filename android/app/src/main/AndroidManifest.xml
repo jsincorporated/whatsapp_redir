@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.whatsapp_opener">
+    package="com.junsheng.whatsappredirect">
    <application
         android:label="whatsapp_opener"
         android:name="${applicationName}"

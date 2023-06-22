@@ -1,4 +1,4 @@
-package com.example.whatsapp_opener
+package com.junsheng.whatsappredirect
 
 import io.flutter.embedding.android.FlutterActivity
 
