@@ -43,7 +43,7 @@ class _HomeState extends State<Home> {
     final height = MediaQuery.of(context).size.height;
     return Scaffold(
       resizeToAvoidBottomInset: true,
-      backgroundColor: const Color.fromARGB(255, 247, 245, 245),
+      backgroundColor: Color.fromARGB(255, 247, 245, 245),
       // appBar: AppBar(
       //   backgroundColor: Colors.green,
       //   elevation: 0,
@@ -93,22 +93,24 @@ class _HomeState extends State<Home> {
                     );
                   },
                   borderRadius: BorderRadius.circular(20),
-                  child: Container(
-                    height: height * 0.08,
+                  child: SizedBox(
+                    height: height * 0.07,
                     width: width * 0.18,
-                    decoration: BoxDecoration(
-                      border: Border.all(color: Colors.green),
-                      borderRadius: BorderRadius.circular(20),
+                    child: Container(
+                      decoration: BoxDecoration(
+                        border: Border.all(color: Colors.green),
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Center(
+                          child: Text(
+                        '+$countryCode',
+                        style: const TextStyle(fontSize: 20),
+                      )),
                     ),
-                    child: Center(
-                        child: Text(
-                      '+$countryCode',
-                      style: const TextStyle(fontSize: 20),
-                    )),
                   ),
                 ),
                 SizedBox(
-                  height: height * 0.08,
+                  height: height * 0.07,
                   width: width * 0.60,
                   child: TextField(
                     decoration: InputDecoration(

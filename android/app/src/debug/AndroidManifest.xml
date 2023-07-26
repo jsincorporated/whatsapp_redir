@@ -6,7 +6,6 @@
     -->
     <uses-permission android:name="android.permission.INTERNET"/>
     <queries>
-        <package="com.junsheng.whatsappredirect">
         <intent>
             <action android:name="android.intent.action.VIEW" />
             <data android:scheme="https" />
